@@ -13,3 +13,6 @@
 [submodule "usr.bin/ninja"]
 	path = usr.bin/ninja
 	url = https://github.com/ninja-build/ninja.git
+[submodule "sys"]
+	path = sys
+	url = https://github.com/ToCodeABluejay/bsd.git
