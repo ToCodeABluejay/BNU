@@ -1,6 +1,2 @@
-for dir in ./usr.bin/cmake/.git
-./usr.bin/ninja/.git
-./usr.bin/perg/.git
-./bin/rush/.git
-./sys/.git
-./.git; do cd .; git pull ; cd -; done
+#!/bin/sh
+for dir in $(find . -name ".git"); do cd ${dir%/*}; git pull ; cd -; done
