@@ -1,6 +1,3 @@
-[submodule "bin/stty"]
-	path = bin/stty
-	url = https://github.com/stemjail/tty-rs.git
 [submodule "usr.bin/perg"]
 	path = usr.bin/perg
 	url = https://github.com/guerinoni/perg.git
