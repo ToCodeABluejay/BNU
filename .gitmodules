@@ -4,9 +4,6 @@
 [submodule "usr.bin/perg"]
 	path = usr.bin/perg
 	url = https://github.com/guerinoni/perg.git
-[submodule "bin/rush"]
-	path = bin/rush
-	url = https://github.com/nushell/nushell.git
 [submodule "usr.bin/cmake"]
 	path = usr.bin/cmake
 	url = https://github.com/Kitware/CMake.git
@@ -16,3 +13,6 @@
 [submodule "sys"]
 	path = sys
 	url = https://github.com/ToCodeABluejay/bsd.git
+[submodule "bin/rush"]
+	path = bin/rush
+	url = https://github.com/nushell/nushell.git
